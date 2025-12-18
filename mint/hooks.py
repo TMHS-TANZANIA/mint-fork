@@ -1,8 +1,8 @@
 app_name = "mint"
-app_title = "Mint"
-app_publisher = "The Commit Company (Algocode Technologies Pvt. Ltd.)"
+app_title = "Bank reconciliation"
+app_publisher = "TMHS Group"
 app_description = "Bank reconciliation made simple for ERPNext"
-app_email = "support@thecommit.company"
+app_email = "system@tmhsgroup.com"
 app_license = "agpl-3.0"
 
 # Apps
@@ -13,9 +13,9 @@ app_license = "agpl-3.0"
 # Each item in the list will be shown as an app in the apps page
 add_to_apps_screen = [
 	{
-		"name": "mint",
-		"logo": "/assets/mint/mint/assets/mint-logo.png",
-		"title": "Mint",
+		"name": app_name,
+		"logo": "/assets/mint/mint/assets/logo.png",
+		"title": app_title,
 		"route": "/mint",
 		"has_permission": "erpnext.check_app_permission",
 	}
